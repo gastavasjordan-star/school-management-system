@@ -58,9 +58,7 @@ class ActivationScreen(QDialog):
         layout.addWidget(msg)
         
         # Machine ID
-        machine_id = self.license_manager.cipher._encryption_key_from_password()
-        from school_manager.utils.hardware import HardwareFingerprint
-        machine_id = HardwareFingerprint().get_fingerprint_display()
+        machine_id = HardwareFingerprint.get_machine_id()
         
         id_group = QGroupBox("Machine ID")
         id_layout = QVBoxLayout()
