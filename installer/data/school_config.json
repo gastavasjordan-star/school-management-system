@@ -1,0 +1,13 @@
+{
+    "school_name": "Demo Academy",
+    "address": "123 Education Lane",
+    "phone": "+254 712 345 678",
+    "email": "info@demoacademy.edu",
+    "website": "www.demoacademy.edu",
+    "established": 2010,
+    "term_dates": {
+        "term1": {"start": "2024-01-15", "end": "2024-04-15"},
+        "term2": {"start": "2024-05-05", "end": "2024-08-05"},
+        "term3": {"start": "2024-09-01", "end": "2024-11-30"}
+    }
+}
