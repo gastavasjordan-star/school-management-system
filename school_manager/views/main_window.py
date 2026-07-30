@@ -14,6 +14,7 @@ from PyQt6.QtWidgets import (QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QGr
 from PyQt6.QtCore import Qt, QTimer, QDate, QSize, pyqtSignal, QThread
 from PyQt6.QtGui import QIcon, QAction, QFont, QPainter, QLinearGradient, QColor
 
+from school_manager.utils.hardware import HardwareFingerprint
 from school_manager.views.styles import ModernStylesheet, Colors
 from school_manager.views.components import (CardWidget, StatCard, SidebarButton, PrimaryButton, 
                                               SecondaryButton, DangerButton, StatusBadge,
