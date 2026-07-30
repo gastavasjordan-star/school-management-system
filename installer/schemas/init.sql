@@ -1,0 +1,2 @@
+-- Database will be created automatically on first run
+-- Default tables: users, students, staff, classes, subjects, fees, attendance
