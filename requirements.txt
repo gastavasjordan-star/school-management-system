@@ -1,0 +1,43 @@
+# Core GUI Framework
+PyQt6>=6.6.1
+PyQt6-WebEngine>=6.6.0
+
+# Database
+SQLAlchemy>=2.0.51
+# PySQLite3 - included with Python
+
+# PDF Generation
+reportlab>=4.0.7
+Pillow>=10.0.0
+
+# QR Code
+qrcode>=7.4.2
+
+# Encryption
+cryptography>=41.0.7
+
+# Hardware ID (Windows only)
+# wmi - installed separately on Windows
+
+# Google Drive API
+google-api-python-client>=2.109.0
+google-auth-httplib2>=0.1.1
+google-auth-oauthlib>=1.1.0
+
+# HTTP Server for Portal
+aiohttp>=3.9.1
+
+# Excel Export
+openpyxl>=3.1.2
+
+# Notifications
+plyer>=2.1.0
+
+# Scheduling
+schedule>=1.2.0
+
+# Packaging
+pyinstaller>=6.3.0
+
+# Utils
+python-dateutil>=2.8.2
